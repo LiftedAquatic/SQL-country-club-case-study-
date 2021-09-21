@@ -76,8 +76,7 @@ Try writing the query without using the OR operator. */
 
 SELECT *
 FROM Facilities
-WHERE facid 
-IN (1, 5)
+WHERE facid = 1 OR 5
 
 output:
 (1, 'Tennis Court 2', 5.0, 25.0, 8000, 200),
